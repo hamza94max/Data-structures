@@ -1,17 +1,18 @@
-# Data-stracture-
+# Data-stracture
 data stracture in Java
-
-
 
 
 **Array**
 
-Arrays are used to store multiple values in a single variable, instead of declaring separate variables for each value
+• Arrays give us the ability to:
+– Store a (potentially large) collection of homogeneous data 
+– Have direct access to any one element in the collection by its position 
+
 
 **Access the Elements of an Array**
 > String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};  
->System.out.println(cars[0]);
->// Outputs Volvo
+> System.out.println(cars[0]);
+> // Outputs Volvo
 
 
 **Change an Array Element**
