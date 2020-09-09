@@ -1,9 +1,9 @@
 # Data-stracture
 data stracture in Java
 
-<div class="container">
-	<div class="Array">## Array
-
+<details open>
+<summary>Array</summary>
+<br>
 • Arrays give us the ability to:
 - Store a (potentially large) collection of homogeneous data 
 - Have direct access to any one element in the collection by its position 
@@ -49,10 +49,14 @@ String [] newitems =new String [count*2];<br/>
 //copy the elements to new array <br/>
 for (int i=0;i<count;i++){<br/>
 newitems [i]=cars[i];}
+</details>
 
-</div>
-	<div class="2D Array"></div>
 
-</div>
+
+
+
+
+
+
 
 
