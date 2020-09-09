@@ -51,10 +51,8 @@ for (int i=0;i<count;i++){<br/>
 newitems [i]=cars[i];}
 
 </div>
-	<div class="block"></div>
-	<div class="block"></div>
-	<div class="block"></div>
-	<div class="block"></div>
+	<div class="2D Array"></div>
+
 </div>
 
 
