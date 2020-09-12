@@ -67,8 +67,8 @@ newitems [i]=cars[i];}<br/><br/>
 
 <details open>
 <summary>2D Array</summary>
-**2 D Array** <br/>
-A multidimensional array is an array of arrays. Each element of a multidimensional array is an array itself. For example
+ <br/>
+A multidimensional array is an array of arrays. Each element of a multidimensional array is an array itself. For example <br/>
   
   >  int[][] a = new int[3][4];<br/><br/>
   
