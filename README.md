@@ -6,10 +6,7 @@ data stracture in Java
 <br>
 • Arrays give us the ability to:
 - Store a (potentially large) collection of homogeneous data 
-- Have direct access to any one element in the collection by its position 
-
-
-
+- Have direct access to any one element in the collection by its position <br>
 
 
 **Syntax**
@@ -48,8 +45,56 @@ for (int i = 0; i < cars.length; i++) {<br/>
 String [] newitems =new String [count*2];<br/>
 //copy the elements to new array <br/>
 for (int i=0;i<count;i++){<br/>
-newitems [i]=cars[i];}
+newitems [i]=cars[i];}<br/><br/>
+
+ **Time**<br/>
+- O(1) to add/remove at end (amortized for allocations for more space), index, or update<br/>
+- O(n) to insert/remove elsewhere<br/>
+
+ **Space**<br/>
+- contiguous in memory, so proximity helps performance<br/>
+- space needed = (array capacity, which is >= n) * size of item, but even if 2n, still O(n)<br/>
+
+
+**resources**
+1. [Arrays (Video](https://www.coursera.org/lecture/data-structures/arrays-OsBSF)
+2. [ Array funcations](https://archive.org/details/0102WhatYouShouldKnow/03_01-resizableArrays.mp4)
+3. [Dynamic Arrays (resize array)](https://www.coursera.org/lecture/data-structures/dynamic-arrays-EwbnV)
+
 </details>
+
+
+
+<details open>
+<summary>2D Array</summary>
+**2 D Array** <br/>
+A multidimensional array is an array of arrays. Each element of a multidimensional array is an array itself. For example
+  
+  >  int[][] a = new int[3][4];<br/><br/>
+  
+ <img src = "https://user-images.githubusercontent.com/54688005/93002312-69c86000-f536-11ea-9ac8-57681ba2fff4.PNG" width =40%>
+  <img width ="5%"/> 
+  
+  **Loop to print 2D array**<br/>
+>int[][] board = new int[3][3];<br/>
+for (int i = 0; i < board.length; i++) {<br/>
+for (int j = 0; j < board[i].length; j++) {<br/>
+board[i][j] = i + j; } }<br/>
+
+
+**Resources**<br/>
+[2D Array](https://archive.org/details/0102WhatYouShouldKnow/02_05-multidimensionalArrays.mp4)<br/>
+
+
+
+
+
+
+
+
+
+</details>
+
 
 
 
