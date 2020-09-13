@@ -84,6 +84,70 @@ board[i][j] = i + j; } }<br/>
 
 **Resources**<br/>
 [2D Array](https://archive.org/details/0102WhatYouShouldKnow/02_05-multidimensionalArrays.mp4)<br/>
+</details>
+
+<details open>
+<summary>LinkedList</summary>
+<br>
+is a data structure wherein each element contains both  a data value and a pointer to next element in the list<br><br>
+  
+  <img src = "https://user-images.githubusercontent.com/54688005/93020778-56bd9a80-f5df-11ea-9327-bb0dae8f6ee6.PNG" width =50%>
+  <img width ="5%"/> 
+  <br>
+  
+  **Array V.S Linkedlist** 
+  1) Size of the array is fixed **v.s** Linked list allows dynamic memory allocation   <br>
+  2) Array elements need contiguous memory locations to store their values **v.s** Linked list elements don’t need contiguous memory locations  <br>
+  3) Inserting an element in an array is performance wise expensive **v.s**  Insert and delete operations in the Linked list are not performance wise expensive because adding      and deleting an element from the linked list does’t require element shifting, only the pointer of the previous and the next node requires change.  <br>
+  
+  
+  
+  
+  
+  
+  **Funcations**
+> LinkedList<String> al=new LinkedList<String>();  <br>
+  al.add("Ravi");  <br>
+  al.addFirst("First Item");<br>
+  al.getFirst();<br>
+  al.getLast();<br>
+  al.addLast("Last Item");<br>
+  al.removeFirst();<br>
+  al.removeLast();<br>
+  al.remove(2);<br>
+  al.get(2);<br>
+  al.size();<br>
+  // clear the list<br>
+  llist.clear();<br>
+  // clone al ( returns the exact same copy of the Linked List object )<br>
+  list2 = (LinkedList) al.clone();<br>
+  
+
+  
+  
+  **Resources**
+- [Website ](https://beginnersbook.com/2013/12/linkedlist-in-java-with-example/)
+- [Video ](https://archive.org/details/ucberkeley_webcast_htzJdKoEmO0)
+- [Lists vs. Arrays](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/QUaUd/in-the-real-world-lists-vs-arrays)
+- [Why you should avoid Linked Lists](https://www.youtube.com/watch?v=YQs6IC-vgmo)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -94,11 +158,6 @@ board[i][j] = i + j; } }<br/>
 
 
 </details>
-
-
-
-
-
 
 
 
