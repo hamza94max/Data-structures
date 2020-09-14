@@ -122,7 +122,14 @@ is a data structure wherein each element contains both  a data value and a point
   // clone al ( returns the exact same copy of the Linked List object )<br>
   list2 = (LinkedList) al.clone();<br>
   
+  
+   **Time**<br/>
+- **O(1)** to add/remove at end (amortized for allocations for more space), index, or update<br/>
+- **O(n)** to insert/remove elsewhere<br/>
 
+ **Space**<br/>
+- The amount of data stored increases linearly with the number of nodes in the list. Therefore, the space complexity of the linked list is linear:  **O(n)**
+ 
   
   
   **Resources**
