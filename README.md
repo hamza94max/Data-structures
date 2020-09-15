@@ -172,10 +172,11 @@ _**When we push an element into the stack the top is increased by 1.**_ <br/><br
 **pop()**	The method removes an element from the top of the stack and returns the same element as the value of that function.<br/>
 **peek()**	The method looks at the top element of the stack without removing it.<br/>
 **search(Object o)**	The method searches the specified object and returns the position of the object<br/>
-**size()** to get the size of the Stack 
+**size()** to get the size of the Stack <br/>
 
-
-
+**Resources**<br/>
+- [Stacks (Last In First Out)](https://archive.org/details/0102WhatYouShouldKnow/05_01-usingStacksForLast-inFirst-out.mp4)<br/>
+- [Stacks](https://www.coursera.org/lecture/data-structures/stacks-UdKzQ)
 
 
 
