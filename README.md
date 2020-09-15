@@ -146,7 +146,7 @@ is a data structure wherein each element contains both  a data value and a point
  <img src = "https://user-images.githubusercontent.com/54688005/93125319-3f5bdb80-f6cb-11ea-868b-a57b1c4556c2.jpg" width =40%>
   <img width ="5%"/> <br/> <br/>
 
-In stack, elements are stored and accessed in Last In First Out manner.
+In stack, elements are stored and accessed in **Last In First Out** (LIFO) manner.
 That is, elements are added to the top of the stack and removed from the top of the stack.<br/>
 
 **Creating a Stack**
