@@ -138,24 +138,41 @@ is a data structure wherein each element contains both  a data value and a point
 - [Lists vs. Arrays](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/QUaUd/in-the-real-world-lists-vs-arrays)
 - [Why you should avoid Linked Lists](https://www.youtube.com/watch?v=YQs6IC-vgmo)
 
+</details>
 
+<details open>
+<summary>Stack</summary>
+ <br/>
+ <img src = "https://user-images.githubusercontent.com/54688005/93125319-3f5bdb80-f6cb-11ea-868b-a57b1c4556c2.jpg" width =40%>
+  <img width ="5%"/> <br/> <br/>
 
+In stack, elements are stored and accessed in Last In First Out manner.
+That is, elements are added to the top of the stack and removed from the top of the stack.<br/>
 
+**Creating a Stack**
+> Stack <Type> stacks = new Stack<>();<br/>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+**example**<br/>
+>       Stack <String> animals= new Stack<>();
+        animals.push("Dog");
+        animals.push("Horse");
+        System.out.println("Stack: " + animals);
+_**When we push an element into the stack the top is increased by 1.**_ <br/><br/>
+  
+   <img src = "https://user-images.githubusercontent.com/54688005/93127817-dece9d80-f6ce-11ea-8522-edfed130477f.PNG" width =40%>
+  <img width ="5%"/> <br/> <br/>
+  
+  
+  
+  
+**other Funcations**
+>
+**empty()**	The method checks the stack is empty or not.<br/>
+**push(E item)** The method pushes (insert) an element onto the top of the stack.<br/>
+**pop()**	The method removes an element from the top of the stack and returns the same element as the value of that function.<br/>
+**peek()**	The method looks at the top element of the stack without removing it.<br/>
+**search(Object o)**	The method searches the specified object and returns the position of the object<br/>
+**size()** to get the size of the Stack 
 
 
 
@@ -165,9 +182,5 @@ is a data structure wherein each element contains both  a data value and a point
 
 
 </details>
-
-
-
-
 
 
