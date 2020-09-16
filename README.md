@@ -1,6 +1,8 @@
 # Data-stracture
-data stracture in Java
-
+data stracture in Java<br>
+<img src = "https://user-images.githubusercontent.com/54688005/93380732-ec675d00-f85f-11ea-9669-63765174f253.jpg" width =55%>
+  <img width ="5%"/> 
+  <br><br><br>
 <details open>
 <summary>Array</summary>
 <br>
@@ -184,4 +186,42 @@ _**When we push an element into the stack the top is increased by 1.**_ <br/><br
 
 </details>
 
+<details open>
+<summary>Queue </summary>
+ <br/>
+  is a data structure which follows the principle of FIFO (First-In-First-Out) <br/><br/>
+   <img src = "https://user-images.githubusercontent.com/54688005/93380962-4831e600-f860-11ea-833b-9e551dddf44d.PNG" width =45%>
+  <img width ="5%"/> <br/> <br/>
+  
+**FRONT** track the first element of the queue<br/>
+**REAR** track the last elements of the queue<br/>
+_**initially, set value of FRONT and REAR to -1**_ <br/><br/>
+  
+  **Funcations**<br/>
+- **Enqueue()**: Add an element to the end of the queue _(increase the REAR index by 1)_
+- **Dequeue()**: Remove an element from the front of the queue _(increase the FRONT index by 1)_
+- **IsEmpty()**: Check if the queue is empty
+- **IsFull()**: Check if the queue is full
+- **Peek()**: Get the value of the front of the queue without removing it<br/><br/>
+  
+  
+  
+**Complexity Analysis**<br/>
+The complexity of enqueue and dequeue operations in a queue using an array is ***O(1)**.<br/>
+a bad implementation using linked list where you enqueue at head and dequeue at tail would be O(n) because you'd need the next to last element, causing a full traversal each dequeue<br/><br/>
+
+**Applications of Queue**
+-  Serving requests on a single shared resource, like a printer, CPU task scheduling etc.
+-  In real life scenario, Call Center phone systems uses Queues to hold people calling them in an order, until a service representative is free.<br/><br/>
+  
+
+**Resources**<br/>
+[Queue (video)](https://www.coursera.org/lecture/data-structures/queues-EShpq)<br/>
+[FIFO in Queue](https://archive.org/details/0102WhatYouShouldKnow/05_03-usingQueuesForFirst-inFirst-out.mp4)<br/>
+[Website](https://www.programiz.com/dsa/queue)<br/>
+ [Code Resources](https://www.softwaretestinghelp.com/java-queue-interface/)<br/>
+
+  
+  
+  </details>
 
