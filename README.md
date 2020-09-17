@@ -1,7 +1,7 @@
 # Data-stracture
 data stracture in Java<br>
-<img src = "https://user-images.githubusercontent.com/54688005/93380732-ec675d00-f85f-11ea-9669-63765174f253.jpg" width =55%>
-  <img width ="5%"/> 
+<img src = "https://user-images.githubusercontent.com/54688005/93380732-ec675d00-f85f-11ea-9669-63765174f253.jpg" width =60%>
+  <img width ="10%"/> 
   <br><br><br>
 <details open>
 <summary>Array</summary>
@@ -93,8 +93,8 @@ board[i][j] = i + j; } }<br/>
 <br>
 is a data structure wherein each element contains both  a data value and a pointer to next element in the list<br><br>
   
-  <img src = "https://user-images.githubusercontent.com/54688005/93020778-56bd9a80-f5df-11ea-9327-bb0dae8f6ee6.PNG" width =50%>
-  <img width ="5%"/> 
+  <img src = "https://user-images.githubusercontent.com/54688005/93519501-a7f6c280-f92e-11ea-9772-8f414ce997a7.PNG" width =75%>
+  <img width ="10%"/> 
   <br>
   
   **Array V.S Linkedlist** 
@@ -224,4 +224,80 @@ a bad implementation using linked list where you enqueue at head and dequeue at 
   
   
   </details>
+
+
+
+
+<details open>
+<summary>Hash table </summary>
+ <br/>
+  
+  **Hashtable** is a combination of an array and linkedlist inside of it . <br/>
+( where data is stored in an array format. Every data value has a unique key value. If the key is known, access to the needed data is very fast. So, insertion and search operations are fast independently on the data size)  _**in the form of “Key-Value” pair**_ <br/><br/><br/>
+
+
+
+
+ <img src = "https://user-images.githubusercontent.com/54688005/93521481-6a933480-f930-11ea-8907-9a088b883fac.PNG" width =85%>
+  <img width ="10%"/> <br/> <br/>
+
+- The Hash Function should be such that the keys generated are uniformly distributed.
+- The size of the Hash Table is dependent on the Hash Function. So, the choice of Hash Function should be done perfectly.
+- In the case of a collision in the Hash Table, apply proper collision handling technique.
+
+>Hashtable<Integer, String> hashtable = new Hashtable<>();<br/>
+        //2. Add mappings to hashtable <br/>
+        hashtable.put(1,  "A");<br/>
+        hashtable.put(2,  "B" );<br/>
+        hashtable.put(3,  "C");<br/>
+        System.out.println(hashtable);<br/>
+        //output <br/>
+        {3=C, 2=B, 1=A}<br/>
+
+
+
+
+
+
+**Methods**
+- **Object put(Object key, Object value) :** It maps the specified key to the specified value in this hashtable. Neither the key nor the value can be null.
+- **Object remove(Object key) :** It removes the key (and its corresponding value) from hashtable.
+- **boolean containsValue(Object value) :** It returns true if specified value exist within the hash table for any pair, else return false.
+- **void clear()** : It is used to remove all pairs in the hashtable.
+- **Object get(Object key) :** It returns the value to which the specified key is mapped. Returns null if no such key is found.
+- **void rehash() :** It is used to increase the size of the hash table and rehashes all of its keys.
+- **int size() :** It returns the number of entries in the hash table.
+
+
+
+
+
+**Time**<br/>
+The Hash Table will perform the insertion, deletion, and searching operation in **O(1)** time.<br/><br/>
+
+**Resources** <br/>
+[Hash tables (CS50) ](https://www.youtube.com/watch?v=nvzVHwrrub0) <br/>
+[CS 50 lecture](https://www.youtube.com/watch?v=4IrUAqYKjIA&list=PLhQjrBD2T381L3iZyDTxRwOBuUt6m1FnW&index=6&t=4702s) <br/>
+
+
+
+
+
+
+
+
+ </details>
+
+
+### Courses
+- [CS 50 ](https://www.youtube.com/watch?v=4IrUAqYKjIA&list=PLhQjrBD2T381L3iZyDTxRwOBuUt6m1FnW&t=0s)
+- [Blog (MindOrks)](https://blog.mindorks.com/android-developer-should-know-these-data-structures-for-next-interview)
+- [Data stracture (Coursera)](https://www.coursera.org/learn/data-structures)
+
+
+
+
+
+
+
 
