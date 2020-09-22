@@ -3,7 +3,7 @@ data stracture in Java<br>
 <img src = "https://user-images.githubusercontent.com/54688005/93380732-ec675d00-f85f-11ea-9669-63765174f253.jpg" width =60%>
   <img width ="10%"/> 
   <br><br><br>
-<details open>
+<details close>
 <summary>Array</summary>
 <br>
 • Arrays give us the ability to:
@@ -67,7 +67,7 @@ newitems [i]=cars[i];}<br/><br/>
 
 
 
-<details open>
+<details close>
 <summary>2D Array</summary>
  <br/>
 A multidimensional array is an array of arrays. Each element of a multidimensional array is an array itself. For example <br/>
@@ -88,7 +88,7 @@ board[i][j] = i + j; } }<br/>
 [2D Array](https://archive.org/details/0102WhatYouShouldKnow/02_05-multidimensionalArrays.mp4)<br/>
 </details>
 
-<details open>
+<details close>
 <summary>LinkedList</summary>
 <br>
 is a data structure wherein each element contains both  a data value and a pointer to next element in the list<br><br>
@@ -142,7 +142,7 @@ is a data structure wherein each element contains both  a data value and a point
 
 </details>
 
-<details open>
+<details close>
 <summary>Stack</summary>
  <br/>
  <img src = "https://user-images.githubusercontent.com/54688005/93125319-3f5bdb80-f6cb-11ea-868b-a57b1c4556c2.jpg" width =40%>
@@ -186,7 +186,7 @@ _**When we push an element into the stack the top is increased by 1.**_ <br/><br
 
 </details>
 
-<details open>
+<details close>
 <summary>Queue </summary>
  <br/>
   is a data structure which follows the principle of FIFO (First-In-First-Out) <br/><br/>
@@ -228,7 +228,7 @@ a bad implementation using linked list where you enqueue at head and dequeue at 
 
 
 
-<details open>
+<details close>
 <summary>Hash table </summary>
  <br/>
   
