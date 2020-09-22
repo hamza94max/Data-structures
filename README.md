@@ -287,12 +287,53 @@ The Hash Table will perform the insertion, deletion, and searching operation in 
 
 
  </details>
+ 
+ 
+
+<details close>
+<summary>Tree </summary>
+ <br/>
+A binary tree is a recursive tree data structure where each node can have 2 children at most. 
+  
+  
+ <img src = "https://user-images.githubusercontent.com/54688005/93895054-ae4ebb00-fcef-11ea-833e-557289e2808f.PNG" width =70%>
+  <img width ="8%"/> <br/> <br/>
+
+
+
+**Resources**<br/>
+[ Introduction To Trees ( Arabic )](https://www.youtube.com/watch?v=XDDZNL-yG2U)
+
+
+
+
+
+
+
+
+ </details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ### Courses
 - [CS 50 ](https://www.youtube.com/watch?v=4IrUAqYKjIA&list=PLhQjrBD2T381L3iZyDTxRwOBuUt6m1FnW&t=0s)
 - [Blog (MindOrks)](https://blog.mindorks.com/android-developer-should-know-these-data-structures-for-next-interview)
 - [Data stracture (Coursera)](https://www.coursera.org/learn/data-structures)
+- [Data Structures and Performance (Course)](https://www.coursera.org/learn/data-structures-optimizing-performance)
 
 
 
