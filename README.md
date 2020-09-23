@@ -1,4 +1,5 @@
-# Data-stracture
+# Data Structures 
+
 data stracture in Java<br>
 <img src = "https://user-images.githubusercontent.com/54688005/93380732-ec675d00-f85f-11ea-9669-63765174f253.jpg" width =60%>
   <img width ="10%"/> 
@@ -330,15 +331,8 @@ A binary tree is a recursive tree data structure where each node can have 2 chil
 
 
 ### Courses
-- [CS 50 ](https://www.youtube.com/watch?v=4IrUAqYKjIA&list=PLhQjrBD2T381L3iZyDTxRwOBuUt6m1FnW&t=0s)
+- [CS 50 (Course)](https://www.youtube.com/watch?v=4IrUAqYKjIA&list=PLhQjrBD2T381L3iZyDTxRwOBuUt6m1FnW&t=0s)
 - [Blog (MindOrks)](https://blog.mindorks.com/android-developer-should-know-these-data-structures-for-next-interview)
 - [Data stracture (Coursera)](https://www.coursera.org/learn/data-structures)
 - [Data Structures and Performance (Course)](https://www.coursera.org/learn/data-structures-optimizing-performance)
-
-
-
-
-
-
-
 
