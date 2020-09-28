@@ -1,7 +1,7 @@
 # Data Structures 
 
 ### Data stracture in Java<br>
-A **data structure** is a data organization, management, and storage format that enables efficient access and modification
+A **data structure** is a data organization, management, and storage format that enables efficient access and modification<br><br>
 <img src = "https://user-images.githubusercontent.com/54688005/93380732-ec675d00-f85f-11ea-9669-63765174f253.jpg" width =60%>
   <img width ="10%"/> 
   <br><br><br>
