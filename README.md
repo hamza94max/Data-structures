@@ -1,6 +1,7 @@
 # Data Structures 
 
-data stracture in Java<br>
+### Data stracture in Java<br>
+A **data structure** is a data organization, management, and storage format that enables efficient access and modification
 <img src = "https://user-images.githubusercontent.com/54688005/93380732-ec675d00-f85f-11ea-9669-63765174f253.jpg" width =60%>
   <img width ="10%"/> 
   <br><br><br>
@@ -294,12 +295,16 @@ The Hash Table will perform the insertion, deletion, and searching operation in 
 <details close>
 <summary>Tree </summary>
  <br/>
-A binary tree is a recursive tree data structure where each node can have 2 children at most. 
+A Tree is a non-linear, hierarchical Data Structure that is used to store data in the form of nodes. Here, we have node and all the nodes are connected with each other with the help of edges that are drawn between them. A parent node can have no child or one child or more than one child. But the child node can’t have more than one parent.  
   
-  
- <img src = "https://user-images.githubusercontent.com/54688005/93895054-ae4ebb00-fcef-11ea-833e-557289e2808f.PNG" width =70%>
+ <img src = "https://user-images.githubusercontent.com/54688005/94467951-f70ce500-01c3-11eb-88e8-52b5028c7ae4.PNG" width =70%>
   <img width ="8%"/> <br/> <br/>
-
+  
+  
+- **Root**:  Root is the node that is present at the top of the tree. There can be only one root of a particular tree.
+- **Parent**:  All the nodes having at least one child is called the parent node.
+- **Child**:  The node below the parent node is called the child node of the parent node.
+- **Leaf**:  The node having zero children is called the leaf node.
 
 
 **Resources**<br/>
