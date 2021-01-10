@@ -51,6 +51,14 @@ String [] newitems =new String [count*2];<br/>
 for (int i=0;i<count;i++){<br/>
 newitems [i]=cars[i];}<br/><br/>
 
+<img src = "https://user-images.githubusercontent.com/54688005/104125479-a464cc80-535f-11eb-9248-416f69348321.jpg" width =50%>
+  <img width ="10%"/> 
+  <br>
+
+
+
+
+
  **Time**<br/>
 - O(1) to add/remove at end (amortized for allocations for more space), index, or update<br/>
 - O(n) to insert/remove elsewhere<br/>
