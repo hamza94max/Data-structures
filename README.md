@@ -330,8 +330,9 @@ A Tree is a non-linear, hierarchical Data Structure that is used to store data i
 
 
 
-
-
+  
+ <img src = "https://user-images.githubusercontent.com/54688005/114392321-e4bf2b00-9b98-11eb-8daa-ab95a7522dd6.PNG" width =70%>
+  <img width ="100%"/> <br/> <br/>
 
 
 
