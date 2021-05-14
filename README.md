@@ -339,7 +339,8 @@ A Tree is a non-linear, hierarchical Data Structure that is used to store data i
 
 
 
-
+## Books 
+- [Grokking Algorithms ](https://files.openpdfs.org/jE1d4LENdOb.pdf?fbclid=IwAR0EpRnw7MpiX9XPx0yu6NyDu5JOTSPZZepDyWogcDPOW1u6snkbtnhWSas#pdfjs.action=download)
 
 
 
@@ -349,4 +350,11 @@ A Tree is a non-linear, hierarchical Data Structure that is used to store data i
 - [Blog (MindOrks)](https://blog.mindorks.com/android-developer-should-know-these-data-structures-for-next-interview)
 - [Data stracture (Coursera)](https://www.coursera.org/learn/data-structures)
 - [Data Structures and Performance (Course)](https://www.coursera.org/learn/data-structures-optimizing-performance)
+
+
+
+
+
+
+
 
