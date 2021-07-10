@@ -103,6 +103,17 @@ board[i][j] = i + j; } }<br/>
 <br>
 is a data structure wherein each element contains both  a data value and a pointer to next element in the list<br><br>
   
+  
+  Linked lists accommodate items of varying sizes and allow easy insertion
+and deletion of items.<br>
+  One potential disadvantage of using a list is that
+performance for retrieving a specified item in a list of size n is linear — **O(n)**,
+as it requires potentially traversing all n elements in the worst case.<br><br>
+  
+  ### **Lists are sometimes used directly by kernel algorithms**
+  
+  
+  
   <img src = "https://user-images.githubusercontent.com/54688005/93519501-a7f6c280-f92e-11ea-9772-8f414ce997a7.PNG" width =75%>
   <img width ="10%"/> 
   <br>
@@ -155,11 +166,23 @@ is a data structure wherein each element contains both  a data value and a point
 <details close>
 <summary>Stack</summary>
  <br/>
+  
+  A **Stack** is a sequentially ordered data structure that uses the last in, first
+out (LIFO) principle for adding and removing items, meaning that the last item
+placed onto a stack is the first item removed. The operations for inserting and
+removing items from a stack are known as push and pop, respectively.
+  
+ ### operating system often uses a stack when invoking function calls.<br>
+  
+  Parameters,local variables, and the return address are pushed onto the stack when a
+function is called; returning from the function call pops those items off the
+stack.
+  
+  
+  
  <img src = "https://user-images.githubusercontent.com/54688005/93125319-3f5bdb80-f6cb-11ea-868b-a57b1c4556c2.jpg" width =50%>
   <img width ="8%"/> <br/> <br/>
 
-In stack, elements are stored and accessed in **Last In First Out** (LIFO) manner.
-That is, elements are added to the top of the stack and removed from the top of the stack.<br/>
 
 **Creating a Stack**
 > Stack <Type> stacks = new Stack<>();<br/>
@@ -198,8 +221,24 @@ _**When we push an element into the stack the top is increased by 1.**_ <br/><br
 
 <details close>
 <summary>Queue </summary>
- <br/>
-  is a data structure which follows the principle of FIFO (First-In-First-Out) <br/><br/>
+ <br/> <br/>
+  
+ **Queue** is a data structure which follows the principle of **FIFO** (First-In-First-Out) <br/>
+  items are removed from a queue in the order
+in which they were inserted. There are many everyday examples of queues,
+including shoppers waiting in a checkout line at a store and cars waiting in line
+at a traffic signal. Queues are also quite common in operating systems—jobs
+that are sent to a printer are typically printed in the order in which they were
+submitted, for example<br/> <br/>
+  
+  **tasks that are waiting to be run on an available CPU are often organized in queues.**
+  <br/><br/><br/>
+  
+  
+  
+  
+  
+  
    <img src = "https://user-images.githubusercontent.com/54688005/93380962-4831e600-f860-11ea-833b-9e551dddf44d.PNG" width =45%>
   <img width ="5%"/> <br/> <br/>
   
@@ -303,7 +342,26 @@ The Hash Table will perform the insertion, deletion, and searching operation in 
 <details close>
 <summary>Tree </summary>
  <br/>
-A Tree is a non-linear, hierarchical Data Structure that is used to store data in the form of nodes. Here, we have node and all the nodes are connected with each other with the help of edges that are drawn between them. A parent node can have no child or one child or more than one child. But the child node can’t have more than one parent.  
+  
+A **tree** is a data structure that can be used to represent data hierarchically. Data
+values in a tree structure are linked through parent–child relationships. <br/>
+  
+  
+  
+  In a binary tree, a parent **may have at most two children**, which we term the left child
+and the right child<br/>
+  
+  additionally requires an ordering between the parent’s two children in which lef t child <= right child.<br/>
+                                                                                                  
+   **Linux uses a balanced binary search tree as part its CPU-scheduling algorithm.**
+  
+   
+ <img src = "https://user-images.githubusercontent.com/54688005/125168657-d4721880-e1a6-11eb-94d7-9e98f05383cb.PNG" width =35%>
+  <img width ="8%"/> <br/> <br/> 
+
+  
+  
+  
   
  <img src = "https://user-images.githubusercontent.com/54688005/94467951-f70ce500-01c3-11eb-88e8-52b5028c7ae4.PNG" width =70%>
   <img width ="8%"/> <br/> <br/>
@@ -313,6 +371,11 @@ A Tree is a non-linear, hierarchical Data Structure that is used to store data i
 - **Parent**:  All the nodes having at least one child is called the parent node.
 - **Child**:  The node below the parent node is called the child node of the parent node.
 - **Leaf**:  The node having zero children is called the leaf node.
+  
+  
+  
+ ## **Time**<br/>
+  When we search for an item in a binary search tree, the worst-case performance is **O(n)**
 
 
 **Resources**<br/>
