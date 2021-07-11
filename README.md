@@ -282,17 +282,32 @@ a bad implementation using linked list where you enqueue at head and dequeue at 
  <br/>
   
   **Hashtable** is a combination of an array and linkedlist inside of it . <br/>
-( where data is stored in an array format. Every data value has a unique key value. If the key is known, access to the needed data is very fast. So, insertion and search operations are fast independently on the data size)  _**in the form of “Key-Value” pair**_ <br/><br/><br/>
+  
+A **hash function** takes data as its input, performs a numeric operation on this
+data, and returns a numeric value. This numeric value can then be used as an
+index into a table (typically an array) to quickly retrieve the data. <br/><br/><br/>
+  
+  **Because of this performance, hash functions are used extensively in
+operating systems.**<br/>
 
 
 
 
  <img src = "https://user-images.githubusercontent.com/54688005/93521481-6a933480-f930-11ea-8907-9a088b883fac.PNG" width =85%>
   <img width ="10%"/> <br/> <br/>
+  
+  
+  
+  ### One potential difficulty with hash functions is that two inputs can result in the same output value—that is, they can link to the same table location. We can accommodate this hash collision by having a linked list at that table location that contains all of the items with the same hash value. Of course, the more collisions there are, the less efficient the hash function is.<br/><br/>
+  
+  
+  
 
 - The Hash Function should be such that the keys generated are uniformly distributed.
 - The size of the Hash Table is dependent on the Hash Function. So, the choice of Hash Function should be done perfectly.
 - In the case of a collision in the Hash Table, apply proper collision handling technique.
+ 
+ 
 
 >Hashtable<Integer, String> hashtable = new Hashtable<>();<br/>
         //2. Add mappings to hashtable <br/>
@@ -320,10 +335,12 @@ a bad implementation using linked list where you enqueue at head and dequeue at 
 
 
 
+**Time** <br/>
+The Hash Table will perform the insertion, deletion, and searching operation in **O(1)** time.<br/>
+  searching for a data item through a list of size n can require up to **O(n)**
+comparisons in the worst case<br/>
 
-**Time**<br/>
-The Hash Table will perform the insertion, deletion, and searching operation in **O(1)** time.<br/><br/>
-
+  
 **Resources** <br/>
 [Hash tables (CS50) ](https://www.youtube.com/watch?v=nvzVHwrrub0) <br/>
 [CS 50 lecture](https://www.youtube.com/watch?v=4IrUAqYKjIA&list=PLhQjrBD2T381L3iZyDTxRwOBuUt6m1FnW&index=6&t=4702s) <br/>
