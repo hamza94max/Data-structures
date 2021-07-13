@@ -420,7 +420,7 @@ and the right child<br/>
 
 
 ## Books 
-- [Grokking Algorithms ](https://files.openpdfs.org/jE1d4LENdOb.pdf?fbclid=IwAR0EpRnw7MpiX9XPx0yu6NyDu5JOTSPZZepDyWogcDPOW1u6snkbtnhWSas#pdfjs.action=download)
+- [Grokking Algorithms ](https://github.com/camoverride/lit/blob/master/Grokking-Algorithms.pdf)
 
 
 
