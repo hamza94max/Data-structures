@@ -1,6 +1,6 @@
 # Data Structures 
 
-### Data stracture in Java<br>
+### Data Structures in Java<br>
 A **data structure** is a data organization, management, and storage format that enables efficient access and modification<br><br>
 <img src = "https://user-images.githubusercontent.com/54688005/93380732-ec675d00-f85f-11ea-9669-63765174f253.jpg" width =60%>
   <img width ="10%"/> 
@@ -411,7 +411,7 @@ and the right child<br/>
 
 
   
- <img src = "https://user-images.githubusercontent.com/54688005/114392321-e4bf2b00-9b98-11eb-8daa-ab95a7522dd6.PNG" width =70%>
+ <img src = "https://user-images.githubusercontent.com/54688005/114392321-e4bf2b00-9b98-11eb-8daa-ab95a7522dd6.PNG" width =85%>
   <img width ="100%"/> <br/> <br/>
 
 
