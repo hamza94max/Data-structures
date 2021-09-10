@@ -5,6 +5,9 @@ A **data structure** is a data organization, management, and storage format that
 <img src = "https://user-images.githubusercontent.com/54688005/93380732-ec675d00-f85f-11ea-9669-63765174f253.jpg" width =60%>
   <img width ="10%"/> 
   <br><br><br>
+  
+ 
+  
 <details close>
 <summary>Array</summary>
 <br>
@@ -78,6 +81,8 @@ newitems [i]=cars[i];}<br/><br/>
 
 
 <details close>
+  
+  
 <summary>2D Array</summary>
  <br/>
 A multidimensional array is an array of arrays. Each element of a multidimensional array is an array itself. For example <br/>
@@ -281,7 +286,8 @@ a bad implementation using linked list where you enqueue at head and dequeue at 
 <summary>Hash table </summary>
  <br/>
   
-  **Hashtable** is a combination of an array and linkedlist inside of it . <br/>
+  **Hashtable** is a combination of an array and linkedlist inside of it .
+  Called Dictionary in Python<br/>
   
 A **hash function** takes data as its input, performs a numeric operation on this
 data, and returns a numeric value. This numeric value can then be used as an
@@ -399,15 +405,43 @@ and the right child<br/>
 [ Introduction To Trees ( Arabic )](https://www.youtube.com/watch?v=XDDZNL-yG2U)
 
 
-
-
-
-
-
-
  </details>
 
+  
+  
+  <details close>
+<summary> Graph</summary>
+ <br/>
+  What is a graph? <br/>
+A graph models a set of connections. For 
+example, suppose you and your friends are 
+playing poker, and you want to model who owes 
+whom money. Here’s how you could say, “Alex 
+owes Rama money.” <br/><br/>
+  
+  
+   <img src = "https://user-images.githubusercontent.com/54688005/132846337-b736c969-99f8-4e3a-bcd6-bd56cddad201.PNG" width = 45%>
+  <img width ="7%"/> <br/> <br/>
+  
+  **That’s all there is to it! Graphs are made up of nodes and edges. A node can be directly connected to many other nodes.**
+  
+  Vertex: Vertices are the point that joints edges. It represents the data. It is also known as a node. It is denoted by a circle and it must be labeled. To construct a graph there must be at least a node. For example, house, bus stop, etc.
+  
+  Edge: An edge is a line that connects two vertices. It represents the relation between the vertices. Edges are denoted by a line. For example, a path to the bus stop from your house.
+  
+  
+  **resources**
+1. [Graph](https://www.javatpoint.com/java-graph)
 
+  
+  
+  
+   </details>
+  
+  
+
+  
+  
 
 
   
