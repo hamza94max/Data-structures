@@ -464,6 +464,7 @@ owes Rama money.” <br/><br/>
 - [Blog (MindOrks)](https://blog.mindorks.com/android-developer-should-know-these-data-structures-for-next-interview)
 - [Data stracture (Coursera)](https://www.coursera.org/learn/data-structures)
 - [Data Structures and Performance (Course)](https://www.coursera.org/learn/data-structures-optimizing-performance)
+- [Data Structures in java (Article)](https://www.linkedin.com/pulse/data-structures-java-omar-ismail/)
 
 
 
