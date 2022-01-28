@@ -22,37 +22,52 @@ type[] array_name = new type[length];  <br/>  <br/>
   <img width ="5%"/> 
 
 **Access the Elements of an Array**
-> String[] cars = {"Volvo", "BMW", "Ford", "Mazda"}; <br/> 
- System.out.println(cars[0]);<br/>
+``` java
+String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
+System.out.println(cars[0]);
 // Outputs Volvo
+```
 
 
 **Change an Array Element**
 
-> String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};<br/>
- cars[0] = "Opel";<br/>
- System.out.println(cars[0]);<br/>
+``` java
+String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
+cars[0] = "Opel";
+System.out.println(cars[0]);
 // Now outputs Opel instead of Volvo
+```
 
 **Array Length**
 To find out how many elements an array has, use the length property:<br/>
-> String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};<br/>
-System.out.println(cars.length);<br/>
-// Outputs 4<br/>
+``` java
+String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
+System.out.println(cars.length);
+// Outputs 4
+```
+  
+  <br/>
 
 **loop to print all elements in Array**
->String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};<br/>
-for (int i = 0; i < cars.length; i++) {<br/>
-  System.out.println(cars[i]);}
+``` java
+String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
+for (int i = 0; i < cars.length; i++) {
+System.out.println(cars[i]);}
+```
   
   
   **Resize the size of array** 
  when you reach capacity, resize to double the size
-> int count =cars.length;<br/>
-String [] newitems =new String [count*2];<br/>
-//copy the elements to new array <br/>
-for (int i=0;i<count;i++){<br/>
-newitems [i]=cars[i];}<br/><br/>
+``` java
+int count = cars.length;
+String [] newitems = new String [count*2];
+//copy the elements to new array
+for (int i = 0; i < count; i++){
+newitems [i] = cars[i];
+}
+```
+  
+  <br/><br/>
 
 <img src = "https://user-images.githubusercontent.com/54688005/104125479-a464cc80-535f-11eb-9248-416f69348321.jpg" width =50%>
   <img width ="10%"/> 
@@ -63,8 +78,8 @@ newitems [i]=cars[i];}<br/><br/>
 
 
  **Time**<br/>
-- O(1) to add/remove at end (amortized for allocations for more space), index, or update<br/>
-- O(n) to insert/remove elsewhere<br/>
+- **O(1)** to add/remove at end (amortized for allocations for more space), index, or update<br/>
+- **O(n)** to insert/remove elsewhere<br/>
 
  **Space**<br/>
 - contiguous in memory, so proximity helps performance<br/>
@@ -72,9 +87,10 @@ newitems [i]=cars[i];}<br/><br/>
 
 
 **resources**
-1. [Arrays (Video](https://www.coursera.org/lecture/data-structures/arrays-OsBSF)
-2. [ Array funcations](https://archive.org/details/0102WhatYouShouldKnow/03_01-resizableArrays.mp4)
+1. [Arrays (Video)](https://www.coursera.org/lecture/data-structures/arrays-OsBSF)
+2. [ Arrays (CS50)](https://archive.org/details/0102WhatYouShouldKnow/03_01-resizableArrays.mp4)
 3. [Dynamic Arrays (resize array)](https://www.coursera.org/lecture/data-structures/dynamic-arrays-EwbnV)
+4. [CS50 lecture](https://www.youtube.com/watch?v=xC3BZa1pcsY&list=PLhQjrBD2T380Xnv_v683p6UjiKJZe13ki&index=3)  
 
 </details>
 
@@ -87,29 +103,34 @@ newitems [i]=cars[i];}<br/><br/>
  <br/>
 A multidimensional array is an array of arrays. Each element of a multidimensional array is an array itself. For example <br/>
   
-  >  int[][] a = new int[3][4];<br/><br/>
-  
+``` java
+   int[][] a = new int[3][4];
+```
+ 
  <img src = "https://user-images.githubusercontent.com/54688005/93002312-69c86000-f536-11ea-9ac8-57681ba2fff4.PNG" width =40%>
   <img width ="5%"/> 
   
   **Loop to print 2D array**<br/>
->int[][] board = new int[3][3];<br/>
-for (int i = 0; i < board.length; i++) {<br/>
-for (int j = 0; j < board[i].length; j++) {<br/>
-board[i][j] = i + j; } }<br/>
+``` java
+int[][] board = new int [3] [3];
+  for (int i = 0; i < board.length; i++) {
+    for (int j = 0; j < board[i].length; j++) {
+    System.out.print(board[i][j] + "\t");
+    } 
+  }
+```
+  
+  <br/>
 
-
-**Resources**<br/>
-[2D Array](https://archive.org/details/0102WhatYouShouldKnow/02_05-multidimensionalArrays.mp4)<br/>
 </details>
-
 <details close>
+  
 <summary>LinkedList</summary>
 <br>
-is a data structure wherein each element contains both  a data value and a pointer to next element in the list<br><br>
+LinkedList is  a data structure wherein each element contains both  a data value and a pointer to next element in the list<br><br>
   
   
-  Linked lists accommodate items of varying sizes and allow easy insertion
+  Linkedlists accommodate items of varying sizes and allow easy insertion
 and deletion of items.<br>
   One potential disadvantage of using a list is that
 performance for retrieving a specified item in a list of size n is linear — **O(n)**,
@@ -134,21 +155,25 @@ as it requires potentially traversing all n elements in the worst case.<br><br>
   
   
   **Funcations**
-> LinkedList<String> al=new LinkedList<String>();  <br>
-  al.add("Ravi");  <br>
-  al.addFirst("First Item");<br>
-  al.getFirst();<br>
-  al.getLast();<br>
-  al.addLast("Last Item");<br>
-  al.removeFirst();<br>
-  al.removeLast();<br>
-  al.remove(2);<br>
-  al.get(2);<br>
-  al.size();<br>
-  // clear the list<br>
-  llist.clear();<br>
-  // clone al ( returns the exact same copy of the Linked List object )<br>
-  list2 = (LinkedList) al.clone();<br>
+``` java
+LinkedList al=new LinkedList();
+al.add("Ravi");
+al.addFirst("First Item");
+al.getFirst();
+al.getLast();
+al.addLast("Last Item");
+al.removeFirst();
+al.removeLast();
+al.remove(2);
+al.get(2);
+al.size();
+// clear the list
+al.clear();
+// clone al ( returns the exact same copy of the Linked List object )
+list2 = (LinkedList) al.clone();
+```
+
+<br>
   
   
    **Time**<br/>
@@ -158,17 +183,16 @@ as it requires potentially traversing all n elements in the worst case.<br><br>
  **Space**<br/>
 - The amount of data stored increases linearly with the number of nodes in the list. Therefore, the space complexity of the linked list is linear:  **O(n)**
  
-  
-  
-  **Resources**
+  ### Resources
 - [Website ](https://beginnersbook.com/2013/12/linkedlist-in-java-with-example/)
-- [Video ](https://archive.org/details/ucberkeley_webcast_htzJdKoEmO0)
+- [CS 61B Lecture](https://archive.org/details/ucberkeley_webcast_htzJdKoEmO0)
 - [Lists vs. Arrays](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/QUaUd/in-the-real-world-lists-vs-arrays)
 - [Why you should avoid Linked Lists](https://www.youtube.com/watch?v=YQs6IC-vgmo)
 
 </details>
-
 <details close>
+  
+  
 <summary>Stack</summary>
  <br/>
   
@@ -190,13 +214,20 @@ stack.
 
 
 **Creating a Stack**
-> Stack <Type> stacks = new Stack<>();<br/>
+``` java
+Stack stacks = new Stack<>();
+```
+
 
 **example**<br/>
->       Stack <String> animals= new Stack<>();
-        animals.push("Dog");
-        animals.push("Horse");
-        System.out.println("Stack: " + animals);
+``` java
+ Stack <String> animals = new Stack<>();
+    animals.push("Dog");
+    animals.push("Horse");
+    System.out.println("Stack: " + animals);
+```
+
+
 _**When we push an element into the stack the top is increased by 1.**_ <br/><br/>
   
    <img src = "https://user-images.githubusercontent.com/54688005/93127817-dece9d80-f6ce-11ea-8522-edfed130477f.PNG" width =40%>
@@ -215,8 +246,8 @@ _**When we push an element into the stack the top is increased by 1.**_ <br/><br
 **size()** to get the size of the Stack <br/>
 
 **Resources**<br/>
-- [Stacks (Last In First Out)](https://archive.org/details/0102WhatYouShouldKnow/05_01-usingStacksForLast-inFirst-out.mp4)<br/>
-- [Stacks](https://www.coursera.org/lecture/data-structures/stacks-UdKzQ)
+- [Stacks (CS 50)](https://www.youtube.com/watch?v=hVsNqhEthOk)<br/>
+- [Stacks(Coursera)](https://www.coursera.org/lecture/data-structures/stacks-UdKzQ)
 
 
 
@@ -270,10 +301,10 @@ a bad implementation using linked list where you enqueue at head and dequeue at 
   
 
 **Resources**<br/>
-[Queue (video)](https://www.coursera.org/lecture/data-structures/queues-EShpq)<br/>
-[FIFO in Queue](https://archive.org/details/0102WhatYouShouldKnow/05_03-usingQueuesForFirst-inFirst-out.mp4)<br/>
-[Website](https://www.programiz.com/dsa/queue)<br/>
- [Code Resources](https://www.softwaretestinghelp.com/java-queue-interface/)<br/>
+- [Queue (video)](https://www.coursera.org/lecture/data-structures/queues-EShpq)<br/>
+- [Queue (CS50)](https://www.youtube.com/watch?v=3TmUv1uS92s)<br/>
+- [Website](https://www.programiz.com/dsa/queue)<br/>
+- [Code Resources](https://www.softwaretestinghelp.com/java-queue-interface/)<br/>
 
   
   
@@ -315,18 +346,16 @@ operating systems.**<br/>
  
  
 
->Hashtable<Integer, String> hashtable = new Hashtable<>();<br/>
-        //2. Add mappings to hashtable <br/>
-        hashtable.put(1,  "A");<br/>
-        hashtable.put(2,  "B" );<br/>
-        hashtable.put(3,  "C");<br/>
-        System.out.println(hashtable);<br/>
-        //output <br/>
-        {3=C, 2=B, 1=A}<br/>
-
-
-
-
+``` java
+Hashtable<Integer, String> hashtable = new Hashtable<>();
+//2. Add mappings to hashtable
+hashtable.put(1, "A");
+hashtable.put(2, "B" );
+hashtable.put(3, "C");
+System.out.println(hashtable);
+//output
+{3 = C, 2 = B, 1 = A}
+```
 
 
 **Methods**
