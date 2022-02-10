@@ -379,6 +379,7 @@ comparisons in the worst case<br/>
 **Resources** <br/>
 [Hash tables (CS50) ](https://www.youtube.com/watch?v=nvzVHwrrub0) <br/>
 [CS 50 lecture](https://www.youtube.com/watch?v=4IrUAqYKjIA&list=PLhQjrBD2T381L3iZyDTxRwOBuUt6m1FnW&index=6&t=4702s) <br/>
+[Hashing with Chaining (MIT lecture)](https://www.youtube.com/watch?v=0M_kIqhwbFo) <br/>
 
 
 
